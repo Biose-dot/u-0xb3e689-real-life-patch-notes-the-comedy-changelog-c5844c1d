@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [Real-Life Patch Notes: The Comedy Changelog](https://make.fun/c/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d).
 
-A release note for a bug in human biology: humans require 8 hours of sleep to function. Fixed in v2.4.1 — sleep now optional.
+The patch moves from sleep to the 3 a.m. sneeze: silenced at last, with the classic release-note sting — the fix makes the hiccups louder.
 
 `main.py` (Python 3) writes the entry to `/output/entry.txt`:
 
-> v2.4.1: Fixed bug where humans require 8 hours of sleep to function. Sleep now optional. Side effect: nobody knows what day it is.
+> v2.4.1: Patched the bug where sneezing at 3 a.m. wakes the whole house. Sneezes are now silent. Side effect: hiccups are louder.
 
 Run it locally with:
 
