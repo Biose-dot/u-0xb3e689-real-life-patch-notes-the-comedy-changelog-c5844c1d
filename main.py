@@ -1,7 +1,7 @@
 import os
 
-out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
-os.makedirs(out, exist_ok=True)
-text = "v2.3: Nerfed hiccups (now last 2 minutes max), fixed bug where yawning is contagious, and Mondays now load 10% faster."
-with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
-    f.write(text)
+output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+os.makedirs(output_dir, exist_ok=True)
+entry = "v2.4.1: Fixed a bug where yawning was contagious. Sneezing now respects personal space. Mondays still broken."
+with open(os.path.join(output_dir, "entry.txt"), "w", encoding="utf-8") as f:
+    f.write(entry)
